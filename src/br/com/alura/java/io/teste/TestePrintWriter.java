@@ -25,7 +25,7 @@ public class TestePrintWriter {
 		
 		//PrintStream ps = new PrintStream("lorem2.txt");		
 		
-		PrintWriter ps = new PrintWriter("lorem2.txt");
+		PrintWriter ps = new PrintWriter("lorem2.txt", "UTF-8");
 		
 		ps.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
 		
